@@ -2,10 +2,21 @@ import { ExperienceItem } from "@/types/portfolio";
 
 export const experience: ExperienceItem[] = [
   {
+    id: "slalom",
+    role: "Senior AI Engineer",
+    company: "Slalom",
+    period: "Mar 2026 - Present",
+    bullets: [
+      "Leading the design and delivery of enterprise AI solutions that align modern LLM capabilities with real client business needs.",
+      "Building scalable AI workflows and production-grade ML systems with a strong focus on reliability, deployment readiness, and measurable impact.",
+      "Partnering across teams to translate ambiguous requirements into practical architectures, delivery plans, and intuitive AI-enabled products."
+    ]
+  },
+  {
     id: "focalcxm",
     role: "Associate AI Engineer",
     company: "FocalCXM LLC",
-    period: "Jun 2025 - Present",
+    period: "Jun 2025 - Mar 2026",
     bullets: [
       "Architected and deployed scalable AI agents using CrewAI, LangChain, LangGraph, and AWS services for high-throughput business workflows.",
       "Integrated GPT-4o and custom embedding pipelines with REST APIs, DynamoDB, and Pinecone to improve intent classification by 35%.",

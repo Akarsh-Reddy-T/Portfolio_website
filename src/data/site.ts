@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Akarsh Reddy Tatimakula",
-  role: "AI/ML Engineer and Data Scientist",
+  role: "Senior AI Engineer and Data Scientist",
   location: "Baltimore, MD",
   email: "akarshreddy.t1@gmail.com",
   linkedin: "https://www.linkedin.com/in/akarsh-reddy-tatimakula-770621207/",
