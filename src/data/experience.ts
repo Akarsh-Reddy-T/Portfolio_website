@@ -7,9 +7,7 @@ export const experience: ExperienceItem[] = [
     company: "Slalom",
     period: "Mar 2026 - Present",
     bullets: [
-      "Leading the design and delivery of enterprise AI solutions that align modern LLM capabilities with real client business needs.",
-      "Building scalable AI workflows and production-grade ML systems with a strong focus on reliability, deployment readiness, and measurable impact.",
-      "Partnering across teams to translate ambiguous requirements into practical architectures, delivery plans, and intuitive AI-enabled products."
+      "Building AI workflows and production-ready ML solutions for enterprise use cases."
     ]
   },
   {
