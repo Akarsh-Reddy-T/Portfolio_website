@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IssuerMark } from "@/components/issuer-mark";
 import { MotionSection } from "@/components/motion-section";
 import { certificates } from "@/data/certificates";
 
@@ -22,16 +23,15 @@ export default function CertificatesPage() {
                 : "rounded-2xl border border-ink/10 bg-white/85 p-6"
             }
           >
-            {certificate.featured && (
-              <div className="mb-5 flex items-center justify-between gap-3">
+            <div className={`mb-5 flex items-center gap-3 ${certificate.featured ? "justify-between" : "justify-end"}`}>
+              {certificate.featured && (
                 <span className="rounded-full border border-white/30 bg-white/15 px-3 py-1 text-[0.7rem] font-bold uppercase tracking-[0.16em]">
                   OpenAI Featured
                 </span>
-                <span className="text-sm font-semibold text-white/80">OpenAI</span>
-              </div>
-            )}
+              )}
+              <IssuerMark issuer={certificate.issuer} featured={certificate.featured} />
+            </div>
             <h2 className="text-xl font-semibold">{certificate.title}</h2>
-            {!certificate.featured && <p className="mt-1 text-sm text-ink/75">{certificate.issuer}</p>}
             {!certificate.featured && <p className="mt-2 text-sm text-sea">Issued: {certificate.issueDate}</p>}
             {certificate.credentialId && (
               <p className={`mt-1 text-xs ${certificate.featured ? "text-white/70" : "text-ink/65"}`}>
