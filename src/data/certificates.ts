@@ -6,7 +6,6 @@ export const certificates: CertificateItem[] = [
     title: "Codex Deployment Practitioner",
     issuer: "OpenAI",
     issueDate: "2026-09-21",
-    validThrough: "2027-09-21",
     filePath: "/certificates/openai-codex-deployment-practitioner.pdf",
     tags: ["OpenAI", "Codex", "Deployment"],
     featured: true
@@ -16,7 +15,6 @@ export const certificates: CertificateItem[] = [
     title: "Codex Solutions Practitioner",
     issuer: "OpenAI",
     issueDate: "2026-09-21",
-    validThrough: "2027-09-21",
     filePath: "/certificates/openai-codex-solutions-practitioner.pdf",
     tags: ["OpenAI", "Codex", "Solutions"],
     featured: true

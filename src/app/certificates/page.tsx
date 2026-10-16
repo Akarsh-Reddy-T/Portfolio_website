@@ -32,10 +32,7 @@ export default function CertificatesPage() {
             )}
             <h2 className="text-xl font-semibold">{certificate.title}</h2>
             {!certificate.featured && <p className="mt-1 text-sm text-ink/75">{certificate.issuer}</p>}
-            <p className={`mt-2 text-sm ${certificate.featured ? "text-white/85" : "text-sea"}`}>
-              Issued: {certificate.issueDate}
-              {certificate.validThrough && ` · Valid through: ${certificate.validThrough}`}
-            </p>
+            {!certificate.featured && <p className="mt-2 text-sm text-sea">Issued: {certificate.issueDate}</p>}
             {certificate.credentialId && (
               <p className={`mt-1 text-xs ${certificate.featured ? "text-white/70" : "text-ink/65"}`}>
                 Credential ID: {certificate.credentialId}
