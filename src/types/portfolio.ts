@@ -49,10 +49,12 @@ export type CertificateItem = {
   title: string;
   issuer: string;
   issueDate: string;
+  validThrough?: string;
   credentialId?: string;
   filePath: string;
   verifyUrl?: string;
   tags: string[];
+  featured?: boolean;
 };
 
 export type EducationItem = {

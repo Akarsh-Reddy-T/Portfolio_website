@@ -2,6 +2,26 @@ import { CertificateItem } from "@/types/portfolio";
 
 export const certificates: CertificateItem[] = [
   {
+    id: "openai-codex-deployment-practitioner",
+    title: "Codex Deployment Practitioner",
+    issuer: "OpenAI",
+    issueDate: "2026-09-21",
+    validThrough: "2027-09-21",
+    filePath: "/certificates/openai-codex-deployment-practitioner.pdf",
+    tags: ["OpenAI", "Codex", "Deployment"],
+    featured: true
+  },
+  {
+    id: "openai-codex-solutions-practitioner",
+    title: "Codex Solutions Practitioner",
+    issuer: "OpenAI",
+    issueDate: "2026-09-21",
+    validThrough: "2027-09-21",
+    filePath: "/certificates/openai-codex-solutions-practitioner.pdf",
+    tags: ["OpenAI", "Codex", "Solutions"],
+    featured: true
+  },
+  {
     id: "mckinsey-forward-program",
     title: "McKinsey.org Forward Program",
     issuer: "McKinsey & Company",
